@@ -1,26 +1,20 @@
 # Site settings
-name: Brittany Chiang
-title: Brittany Chiang | Front End Software Engineer
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+name: Vanessa Colina
+title: Vanessa Colina | Product Designer
+description: Product designer with an entrepreneurial mindset focused on creating experiences that respond to market needs.
+url: http://www.vanessacolina.com
 baseurl: ''
-email: brittany.chiang@gmail.com
-cover: https://bchiang7.github.io/img/og.png
+email: info@vanessacolina.com
+cover: 
 logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+resume: 
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
+    url: mailto:info@vanessacolina.com
   - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
-  - title: github
-    url: https://github.com/bchiang7
+    url: https://twitter.com/vcolinau
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/vanessacolina/
 
 # Build settings
 markdown: kramdown
