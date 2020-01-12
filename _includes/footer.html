@@ -1,4 +1,12 @@
 <footer class="footer">
+  <div class="footer__links">
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+      <span class="text">{{link.title}}</span>
+      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+    </a>
+    {% endfor %}
+  </div>
   <div class="footer__copyright">
     <div class="top">
       <span>Designed &amp; open sourced by</span>
@@ -7,13 +15,5 @@
       <span><a href="https://github.com/bchiang7" target="_blank">Brittany Chiang</a></span>
       <img class="emoji" src="{{site.baseurl}}/img/emojis/rockon.png" alt="emoji">
     </div>
-  </div>
-  <div class="footer__links">
-    {% for link in site.social %}
-    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
-      <span class="text">{{link.title}}</span>
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
-    </a>
-    {% endfor %}
   </div>
 </footer>
